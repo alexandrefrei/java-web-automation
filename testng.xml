@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/zzSourceCode/gitlab/automation/Java/Selenium/WebAutomation/src">
+        <classes>
+            <class name="br.com.automation.Test.BuyProduct">
+                <methods>
+                    <include name="PurchaseAllTShirts"/>
+                </methods>
+            </class>
+            <class name="br.com.automation.Test.LoginTest">
+                <methods>
+                    <include name="LoginWithUserLockout"/>
+                </methods>
+            </class>
+            <class name="br.com.automation.Test.VerifyImageTest">
+                <methods>
+                    <include name="VerifyImageIsLoaded"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
